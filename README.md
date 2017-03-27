@@ -5,5 +5,6 @@
 	<li><a href="https://www.getpostman.com/">Postman</a></li>
 	<li><a href="http://expressjs.com/en/4x/api.html#router">Documentation on the Express router</a></li>
 	<li><a href="https://www.npmjs.com/package/morgan">Documentation for Morgan</a></li>
+	<li><a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html">HTTP Status Code Definitions</a></li>
 </ul>
 

@@ -12,5 +12,6 @@
 	<li>6 Rules of Thumb for MongoDB Schema Design: <a href="https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design-part-1"> Part-1 </a><a href="https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design-part-2"> Part-2 </a><a href="https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design-part-3"> Part-3</a></li>
 	<li><a href="https://docs.mongodb.com/manual/core/data-modeling-introduction/">Data Modeling Introduction</a></li>
 	<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">Array.prototype.sort()</a></li>
+	<li><a href="http://mongoosejs.com/docs/queries.html">Mongoose documentation on queries</a></li>
 </ul>
 

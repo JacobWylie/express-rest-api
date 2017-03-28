@@ -16,22 +16,24 @@ db.once('open', () => {
 
 	const Schema = mongoose.Schema;
 	const AnimalSchema = new Schema({
-		type: String,
-		color: String,
-		size: String,
-		mass: Number,
-		name: String
+		type:  {type: String, default: 'goldfish'},
+		color: {type: String, default: 'small'},
+		size:  {type: String, default: 'golden'},
+		mass:  {type: Number, default: '0.007'},
+		name:  {type: String, default: 'Angela'}
 	});
 
 	const Animal = mongoose.model('Animal', AnimalSchema);
 
-	const elephant = new Animal({
+	const animalData = [
 		type: 'elephant',
 		size: 'big',
 		color: 'gray',
 		mass: 6000,
 		name: 'Lawrence'
-	});
+	];
+
+	var animal = new Animal({}); 
 
 	elephant.save((err) => {
 		if (err) console.error('Save Failed', err);
@@ -41,4 +43,33 @@ db.once('open', () => {
 		});
 	});
 
+	animal.save();
+
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
